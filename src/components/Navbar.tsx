@@ -1,6 +1,6 @@
 import React ,{useState} from "react";
 
-import { faBars, faLanguage, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar: React.FC = () => {
