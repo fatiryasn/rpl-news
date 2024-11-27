@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import SectionController from "../components/SectionController";
 import HeaderNav from "../components/HeaderNav";
 import pkhas from "../assets/pakaian-adat.png";
@@ -11,6 +12,10 @@ import songket2 from "../assets/songket2.png";
 
 const Clothes: React.FC = () => {
   return (
+    <>
+    <Helmet>
+      <title>Pakaian Adat</title>
+    </Helmet>
     <div className="pt-14">
       <HeaderNav />
       <div className="mt-20 px-5 w-full flex flex-col">
@@ -227,6 +232,7 @@ const Clothes: React.FC = () => {
         />
       </div>
     </div>
+    </>
   );
 };
 

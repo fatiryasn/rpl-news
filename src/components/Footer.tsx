@@ -15,7 +15,11 @@ const Footer = () => {
       </div>
       <div className="flex flex-col justify-center items-center gap-5">
         <img src={logo} alt="logo" className="h-20 rounded-full" />
-        <FontAwesomeIcon icon={faGithub} className="h-7" />
+        <FontAwesomeIcon
+          icon={faGithub}
+          className="h-7"
+          onClick={() => window.open("https://github.com/fatiryasn/rpl-news")}
+        />
       </div>
       <div>
         <p className="text-xs font-quicksand font-thin">
