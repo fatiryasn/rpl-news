@@ -88,12 +88,12 @@ const Culinary: React.FC = () => {
             className="mt-3"
           />
           <p className="mt-3 leading-7">
-            Gulai Asam Padeh adalah hidangan khas Batak Mandailing yang kaya
-            rasa dan menjadi salah satu kuliner tradisional yang sering
-            disajikan dalam berbagai acara, baik sehari-hari maupun dalam
-            perayaan adat. Hidangan ini menonjolkan rasa asam segar yang berpadu
-            dengan pedasnya bumbu gulai, menciptakan sensasi yang menggugah
-            selera.
+            Pakkat adalah makanan tradisional khas Mandailing yang terbuat dari
+            pucuk rotan muda. Hidangan ini memiliki cita rasa unik, perpaduan
+            antara pahit dan gurih, yang menjadi ciri khasnya. Pakkat biasanya
+            diolah dengan cara dibakar terlebih dahulu, kemudian bagian dalamnya
+            diambil dan dimasak bersama bumbu rempah atau disajikan sebagai
+            lalapan.
           </p>
 
           <h2 className="font-semibold text-xl font-poppins mt-16">

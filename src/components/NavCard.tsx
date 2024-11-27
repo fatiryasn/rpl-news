@@ -13,7 +13,7 @@ const NavCard: React.FC<NavCardProps> = ({ title, desc, facingTo, dest }) => {
       <div
         className={`${
           facingTo == "left" ? "rounded-se-3xl" : "rounded-ss-3xl self-end"
-        } h-3 w-[50%] bg-gray-800`}
+        } h-3 w-[50%] lg:w-[16%] bg-gray-800`}
       ></div>
       <div
         className={`flex flex-col ${

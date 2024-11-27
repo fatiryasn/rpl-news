@@ -10,17 +10,14 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <div className="px-5 py-3 fixed w-full flex justify-between items-center bg-spcRed text-spcWhite shadow-md z-50">
+      <div className="px-5 py-3 lg:px-10 lg:py-4 fixed w-full flex justify-between lg:justify-center items-center bg-spcRed text-spcWhite shadow-md z-50">
         <div className="">
           <h1 className="font-bold font-poppins ">
             RPL<sup>1</sup>{" "}
             <span className="font-playwrite font-normal text-sm">news</span>
           </h1>
         </div>
-        <div className="flex items-center justify-center gap-5">
-          <button className="font-playwrite">
-            <FontAwesomeIcon icon={faLanguage} />
-          </button>
+        <div className="flex items-center justify-center lg:hidden gap-5">
           <div className="flex md:hidden" onClick={() => setSidebar(!sidebar)}>
             {sidebar ? (
               <FontAwesomeIcon icon={faXmark} className="h-5 w-5" />
