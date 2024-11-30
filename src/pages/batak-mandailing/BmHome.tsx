@@ -35,7 +35,7 @@ const BmHome: React.FC = () => {
           <h1 className="font-quicksand text-xl font-semibold self-center">
             Infomateri yang disediakan
           </h1>
-          <div className="flex flex-col lg:grid-cols-2 lg:grid gap-16 px-5 lg:px-32 ">
+          <div className="flex flex-col lg:grid-cols-2 lg:grid gap-16  lg:px-32 ">
             <NavCard
               title={"Fast Facts"}
               desc={
