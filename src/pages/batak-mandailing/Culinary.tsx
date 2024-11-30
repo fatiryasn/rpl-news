@@ -12,7 +12,7 @@ const Culinary: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Kuliner</title>
+        <title>RPL1 News | Kuliner - Batak Mandailing</title>
       </Helmet>
       <div className="pt-14">
         <HeaderNav />

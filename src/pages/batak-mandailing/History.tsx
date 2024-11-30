@@ -10,7 +10,7 @@ const History: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Sejarah</title>
+        <title>RPL1 News | Sejarah - Batak Mandailing</title>
       </Helmet>
       <div className="pt-14">
         <HeaderNav />

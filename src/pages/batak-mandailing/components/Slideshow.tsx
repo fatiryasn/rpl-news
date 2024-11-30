@@ -19,7 +19,7 @@ const Slideshow = () => {
         <div key={index}>
           <div
             style={{ backgroundImage: `url(${image})` }}
-            className="flex items-center justify-center bg-cover bg-center h-[86vh]"
+            className="flex items-center justify-center bg-cover bg-center h-[94vh]"
           >
           </div>
         </div>

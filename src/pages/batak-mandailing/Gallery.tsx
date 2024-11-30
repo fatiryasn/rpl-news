@@ -150,7 +150,7 @@ const Gallery: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Galeri</title>
+        <title>RPL1 News | Galeri - Batak Mandailing</title>
       </Helmet>
       <div className="pt-14">
         <HeaderNav />

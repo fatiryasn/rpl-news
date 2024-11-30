@@ -1,8 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+
 import "./global.css";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { Route, Routes } from "react-router-dom";
-import Home from "./pages/batak-mandailing/Home";
+
+import Home from "./pages/Home";
+
+//batak-mandailing
+import BmHome from "./pages/batak-mandailing/BmHome";
 import FastFacts from "./pages/batak-mandailing/FastFacts";
 import History from "./pages/batak-mandailing/History";
 import ArtMusic from "./pages/batak-mandailing/ArtMusic";
@@ -16,9 +22,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="md:px-32 lg:px-80 lg:pt-2">
         <Routes>
-          <Route path="/batak-mandailing" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          {/* batak-mandailing */}
+          <Route path="/batak-mandailing" element={<BmHome />} />
           <Route path="/batak-mandailing/fakta-singkat"element={<FastFacts />}/>
           <Route path="/batak-mandailing/sejarah" element={<History />} />
           <Route path="/batak-mandailing/kesenian-dan-musik" element={<ArtMusic />}/>
@@ -28,7 +35,6 @@ function App() {
           <Route path="/batak-mandailing/tradisi-dan-permainan" element={<Tradition />}/>
           <Route path="/batak-mandailing/galeri" element={<Gallery />} />
         </Routes>
-      </div>
       <Footer />
     </>
   );

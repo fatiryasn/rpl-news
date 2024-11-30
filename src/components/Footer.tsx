@@ -2,7 +2,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import logo from "../assets/logo.jpg"
+import logo from "/logo.jpg"
 
 const Footer = () => {
   return (
@@ -17,14 +17,14 @@ const Footer = () => {
         <img src={logo} alt="logo" className="h-20 rounded-full" />
         <FontAwesomeIcon
           icon={faGithub}
-          className="h-7"
+          className="h-7 hover:text-purple-400 cursor-pointer"
           onClick={() => window.open("https://github.com/fatiryasn/rpl-news")}
         />
       </div>
       <div>
         <p className="text-xs font-quicksand font-thin">
           Made with love{" "}
-          <FontAwesomeIcon icon={faHeart} className="text-spcYellow" />
+          <FontAwesomeIcon icon={faHeart} className="text-spcYellow " />
         </p>
       </div>
     </div>

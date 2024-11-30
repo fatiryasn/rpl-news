@@ -14,7 +14,7 @@ const ArtMusic = () => {
   return (
     <>
       <Helmet>
-        <title>Kesenian & Musik</title>
+        <title>RPL1 News | Kesenian & Musik - Batak Mandailing</title>
       </Helmet>
       <div className="pt-14">
         <HeaderNav />

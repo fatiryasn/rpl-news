@@ -11,7 +11,7 @@ const Tradition: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Tradisi & Permainan Adat</title>
+        <title>RPL1 News | Tradisi & Permainan Adat - Batak Mandailing</title>
       </Helmet>
       <div className="pt-14">
         <HeaderNav />

@@ -20,13 +20,13 @@ const NavCard: React.FC<NavCardProps> = ({ title, desc, facingTo, dest }) => {
           facingTo == "left"
             ? "rounded-se-3xl rounded-ss-none self-start items-start"
             : "self-end rounded-ss-3xl rounded-se-none items-end"
-        } p-5 max-w-80 shadow-md rounded-sm border border-slate-300`}
+        } p-5 max-w-96 shadow-md rounded-sm border border-slate-300`}
       >
-        <h1 className="text-xl font-bold font-poppins text-spcRed">{title}</h1>
+        <h1 className="text-xl lg:text-2xl font-bold font-poppins text-spcRed">{title}</h1>
         <p
           className={`${
             facingTo == "left" ? "text-start" : "text-end"
-          } font-quicksand text-sm`}
+          } font-quicksand text-sm lg:text-base`}
         >
           {desc}
         </p>

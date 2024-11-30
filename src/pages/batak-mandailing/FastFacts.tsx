@@ -12,11 +12,11 @@ const FastFacts: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Fakta Singkat</title>
+        <title>RPL1 News | Fakta Singkat - Batak Mandailing</title>
       </Helmet>
       <div className="pt-14">
         <HeaderNav />
-        <div className="mt-20 px-5 w-full flex flex-col items-center">
+        <div className="mt-20 px-5 w-full flex flex-col items-center lg:px-72">
           <h1 className=" font-poppins font-bold text-2xl">
             Fakta dan Data Batak Mandailing
           </h1>

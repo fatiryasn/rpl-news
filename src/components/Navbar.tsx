@@ -10,9 +10,9 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <div className="px-5 py-3 lg:px-10 lg:py-4 fixed w-full flex justify-between lg:justify-center items-center bg-spcRed text-spcWhite shadow-md z-50">
+      <div className="px-5 py-3 lg:px-12 lg:py-5 fixed w-full flex justify-between lg:justify-center items-center bg-spcRed text-spcWhite shadow-md z-50">
         <div className="">
-          <h1 className="font-bold font-poppins ">
+          <h1 className="font-bold font-poppins lg:text-lg ">
             RPL<sup>1</sup>{" "}
             <span className="font-playwrite font-normal text-sm">news</span>
           </h1>
@@ -45,86 +45,7 @@ const Navbar: React.FC = () => {
             >
               Home
             </a>
-            <a
-              href="/fakta-singkat"
-              className={`${
-                checkPath("/fakta-singkat")
-                  ? "text-spcYellow font-bold border-solid border-white w-fit"
-                  : "text-white  border-transparent"
-              } border-b-2 `}
-            >
-              Fast Facts
-            </a>
-            <a
-              href="/sejarah"
-              className={`${
-                checkPath("/sejarah")
-                  ? "text-spcYellow font-bold border-solid border-white w-fit"
-                  : "text-white  border-transparent"
-              } border-b-2 `}
-            >
-              Sejarah
-            </a>
-            <a
-              href="/kesenian-dan-musik"
-              className={`${
-                checkPath("/kesenian-dan-musik")
-                  ? "text-spcYellow font-bold border-solid border-white w-fit"
-                  : "text-white  border-transparent"
-              } border-b-2 `}
-            >
-              Kesenian & Musik
-            </a>
-            <a
-              href="/pakaian-adat"
-              className={`${
-                checkPath("/pakaian-adat")
-                  ? "text-spcYellow font-bold border-solid border-white w-fit"
-                  : "text-white  border-transparent"
-              } border-b-2 `}
-            >
-              Pakaian Adat
-            </a>
-            <a
-              href="/kuliner"
-              className={`${
-                checkPath("/kuliner")
-                  ? "text-spcYellow font-bold border-solid border-white w-fit"
-                  : "text-white  border-transparent"
-              } border-b-2 `}
-            >
-              Kuliner
-            </a>
-            <a
-              href="/rumah-adat"
-              className={`${
-                checkPath("/rumah-adat")
-                  ? "text-spcYellow font-bold border-solid border-white w-fit"
-                  : "text-white  border-transparent"
-              } border-b-2 `}
-            >
-              Rumah Adat
-            </a>
-            <a
-              href="/tradisi-dan-permainan"
-              className={`${
-                checkPath("/tradisi-dan-permainan")
-                  ? "text-spcYellow font-bold border-solid border-white w-fit"
-                  : "text-white  border-transparent"
-              } border-b-2 `}
-            >
-              Tradisi & Permainan Adat
-            </a>
-            <a
-              href="/galeri"
-              className={`${
-                checkPath("/galeri")
-                  ? "text-spcYellow font-bold border-solid border-white w-fit"
-                  : "text-white  border-transparent"
-              } border-b-2 `}
-            >
-              Galeri
-            </a>
+            
           </div>
         </div>
       </div>

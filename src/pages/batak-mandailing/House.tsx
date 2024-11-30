@@ -10,7 +10,7 @@ const House: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Rumah Adat</title>
+        <title>RPL1 News | Rumah Adat - Batak Mandailing</title>
       </Helmet>
       <div className="pt-14">
         <HeaderNav />
