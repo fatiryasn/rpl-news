@@ -1,9 +1,10 @@
 import React from "react";
-import SectionController from "../components/SectionController";
-import HeaderNav from "../components/HeaderNav";
 import { Helmet } from "react-helmet";
 
-import radat from "../assets/rumah-adat.png"
+import SectionController from "./components/SectionController";
+import HeaderNav from "./components/HeaderNav";
+
+import radat from "./assets/rumah-adat.png"
 
 const House: React.FC = () => {
   return (
@@ -151,10 +152,10 @@ const House: React.FC = () => {
           </p>
           <SectionController
             previousLabel={"Kuliner"}
-            previousPath={"/kuliner"}
+            previousPath={"/batak-mandailing/kuliner"}
             currentLabel={"Rumah Adat"}
             nextLabel={"Tradisi & Permainan Adat"}
-            nextPath={"/tradisi-dan-permainan"}
+            nextPath={"/batak-mandailing/tradisi-dan-permainan"}
           />
         </div>
       </div>

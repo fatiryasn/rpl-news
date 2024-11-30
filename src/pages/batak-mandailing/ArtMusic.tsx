@@ -1,13 +1,14 @@
-import SectionController from "../components/SectionController";
 import {Helmet} from "react-helmet"
 
-import gondang from "../assets/gondang.png";
-import tarian from "../assets/tarian.png";
-import tarian2 from "../assets/tarian2.png";
-import gondang2 from "../assets/gondang2.png";
-import marudan from "../assets/marudan.mp3";
-import sarama from "../assets/sarama.png";
-import HeaderNav from "../components/HeaderNav";
+import SectionController from "./components/SectionController";
+import HeaderNav from "./components/HeaderNav";
+
+import gondang from "./assets/gondang.png";
+import tarian from "./assets/tarian.png";
+import tarian2 from "./assets/tarian2.png";
+import gondang2 from "./assets/gondang2.png";
+import marudan from "./assets/marudan.mp3";
+import sarama from "./assets/sarama.png";
 
 const ArtMusic = () => {
   return (
@@ -143,10 +144,10 @@ const ArtMusic = () => {
 
           <SectionController
             previousLabel={"Sejarah"}
-            previousPath={"/sejarah"}
+            previousPath={"/batak-mandailing/sejarah"}
             currentLabel={"Kesenian & Musik"}
             nextLabel={"Pakaian Adat"}
-            nextPath={"/pakaian-adat"}
+            nextPath={"/batak-mandailing/pakaian-adat"}
           />
         </div>
       </div>

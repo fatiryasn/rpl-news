@@ -12,12 +12,11 @@ const ImageCard: React.FC<ImageCardProps> = ({ src, alt, description }) => {
 
   const openPopup = () => {
     setIsOpen(true);
-    setTimeout(() => setShowContent(true), 100); // Untuk menunggu popup muncul
+    setTimeout(() => setShowContent(true), 100); 
   };
-
   const closePopup = () => {
     setShowContent(false);
-    setTimeout(() => setIsOpen(false), 300); // Animasi keluar lebih halus
+    setTimeout(() => setIsOpen(false), 300);
   };
 
   return (

@@ -1,10 +1,11 @@
 import React from "react";
-import SectionController from "../components/SectionController";
-import HeaderNav from "../components/HeaderNav";
 import { Helmet } from "react-helmet";
 
-import mangupa from "../assets/mangupa.png"
-import markobar from "../assets/markobar.png"
+import SectionController from "./components/SectionController";
+import HeaderNav from "./components/HeaderNav";
+
+import mangupa from "./assets/mangupa.png"
+import markobar from "./assets/markobar.png"
 
 const Tradition: React.FC = () => {
   return (
@@ -108,10 +109,10 @@ const Tradition: React.FC = () => {
           </p>
           <SectionController
             previousLabel={"Rumah Adat"}
-            previousPath={"/rumah-adat"}
+            previousPath={"/batak-mandailing/rumah-adat"}
             currentLabel={"Tradisi & Permainan Adat"}
             nextLabel={"Galeri"}
-            nextPath={"/galeri"}
+            nextPath={"/batak-mandailing/galeri"}
           />
         </div>
       </div>

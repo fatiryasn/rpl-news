@@ -1,9 +1,12 @@
-import SectionController from "../components/SectionController";
+import React from "react";
 import { Helmet } from "react-helmet";
-import photo1 from "../assets/random2.png";
-import padri from "../assets/padri.png";
-import HeaderNav from "../components/HeaderNav";
-const History = () => {
+
+import SectionController from "./components/SectionController";
+import HeaderNav from "./components/HeaderNav";
+
+import photo1 from "./assets/random2.png";
+import padri from "./assets/padri.png";
+const History: React.FC = () => {
   return (
     <>
       <Helmet>
@@ -100,10 +103,10 @@ const History = () => {
           </p>
           <SectionController
             previousLabel={"Fast Facts"}
-            previousPath={"/fakta-singkat"}
+            previousPath={"/batak-mandailing/fakta-singkat"}
             currentLabel={"Sejarah"}
             nextLabel={"Kesenian & Musik"}
-            nextPath={"/kesenian-dan-musik"}
+            nextPath={"/batak-mandailing/kesenian-dan-musik"}
           />
         </div>
       </div>

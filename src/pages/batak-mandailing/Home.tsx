@@ -1,8 +1,10 @@
+import React from "react";
 import { Helmet } from "react-helmet";
-import NavCard from "../components/NavCard";
-import Slideshow from "../components/Slideshow";
 
-const Home = () => {
+import NavCard from "./components/NavCard";
+import Slideshow from "./components/Slideshow";
+
+const Home: React.FC = () => {
   return (
     <>
       <Helmet>
@@ -39,7 +41,7 @@ const Home = () => {
               "Beberapa data dan statistik mengenai keberadaan etnis Batak Mandailing."
             }
             facingTo={"left"}
-            dest={"/fakta-singkat"}
+            dest={"/batak-mandailing/fakta-singkat"}
           />
           <NavCard
             title={"Sejarah"}
@@ -47,7 +49,7 @@ const Home = () => {
               "Baca sejarah lengkap Batak Mandailing mulai dari asal-usul nama Mandailing, dan lain-lain"
             }
             facingTo={"right"}
-            dest={"/sejarah"}
+            dest={"/batak-mandailing/sejarah"}
           />
           <NavCard
             title={"Kesenian & Musik"}
@@ -55,7 +57,7 @@ const Home = () => {
               "Alat musik tradisional, tarian adat, dan lagu tradisional dapat anda lihat disini."
             }
             facingTo={"left"}
-            dest={"/kesenian-dan-musik"}
+            dest={"/batak-mandailing/kesenian-dan-musik"}
           />
           <NavCard
             title={"Pakaian Adat"}
@@ -63,7 +65,7 @@ const Home = () => {
               "Kenali lebih dalam tiap detail yang ada di pakaian adat Batak Mandailing."
             }
             facingTo={"right"}
-            dest={"/pakaian-adat"}
+            dest={"/batak-mandailing/pakaian-adat"}
           />
           <NavCard
             title={"Kuliner"}
@@ -71,7 +73,7 @@ const Home = () => {
               "Menyelam ke dalam dunia kuliner lewat cita rasa khas Batak Mandailing."
             }
             facingTo={"left"}
-            dest={"/kuliner"}
+            dest={"/batak-mandailing/kuliner"}
           />
           <NavCard
             title={"Rumah Adat"}
@@ -79,7 +81,7 @@ const Home = () => {
               "Baca mengenai rupa dan makna dari bentuk rumah adat Batak Mandailing."
             }
             facingTo={"right"}
-            dest={"/rumah-adat"}
+            dest={"/batak-mandailing/rumah-adat"}
           />
           <NavCard
             title={"Tradisi & Permainan Adat"}
@@ -87,13 +89,13 @@ const Home = () => {
               "Hal apa saja yang menjadi tradisi dan kebiasaan etnis Batak Mandailing"
             }
             facingTo={"left"}
-            dest={"/tradisi-dan-permainan"}
+            dest={"/batak-mandailing/tradisi-dan-permainan"}
           />
           <NavCard
             title={"Galeri"}
             desc={"Lihat kumpulan foto terkait dengan Batak Mandailing."}
             facingTo={"right"}
-            dest={"/galeri"}
+            dest={"/batak-mandailing/galeri"}
           />
         </div>
       </div>

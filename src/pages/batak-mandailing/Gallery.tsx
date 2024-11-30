@@ -1,36 +1,37 @@
 import React from "react";
-import SectionController from "../components/SectionController";
-import HeaderNav from "../components/HeaderNav";
-import ImageCard from "../components/ImageCard";
 import { Helmet } from "react-helmet";
 
-import gondang from "../assets/gondang.png";
-import tarian from "../assets/tarian.png";
-import tarian2 from "../assets/tarian2.png";
-import gondang2 from "../assets/gondang2.png";
-import sarama from "../assets/sarama.png";
+import SectionController from "./components/SectionController";
+import HeaderNav from "./components/HeaderNav";
+import ImageCard from "./components/ImageCard";
 
-import pkhas from "../assets/pakaian-adat.png";
-import ulosg from "../assets/ulosgodang.png";
-import pkhas2 from "../assets/pkhas2.png";
-import ampu from "../assets/ampu.png";
-import songket from "../assets/songket.png";
-import hiakepala from "../assets/hiakepala.png";
-import songket2 from "../assets/songket2.png";
+import gondang from "./assets/gondang.png";
+import tarian from "./assets/tarian.png";
+import tarian2 from "./assets/tarian2.png";
+import gondang2 from "./assets/gondang2.png";
+import sarama from "./assets/sarama.png";
 
-import mkhas from "../assets/makanan-khas.png";
-import tpanya from "../assets/togepanyabungan.png";
-import asampadeh from "../assets/asampadeh.png";
-import kuepakkat from "../assets/kuepakkat.png";
-import itakpoul from "../assets/itakpoul.png";
+import pkhas from "./assets/pakaian-adat.png";
+import ulosg from "./assets/ulosgodang.png";
+import pkhas2 from "./assets/pkhas2.png";
+import ampu from "./assets/ampu.png";
+import songket from "./assets/songket.png";
+import hiakepala from "./assets/hiakepala.png";
+import songket2 from "./assets/songket2.png";
 
-import radat from "../assets/rumah-adat.png";
+import mkhas from "./assets/makanan-khas.png";
+import tpanya from "./assets/togepanyabungan.png";
+import asampadeh from "./assets/asampadeh.png";
+import kuepakkat from "./assets/kuepakkat.png";
+import itakpoul from "./assets/itakpoul.png";
 
-import mangupa from "../assets/mangupa.png";
-import markobar from "../assets/markobar.png";
+import radat from "./assets/rumah-adat.png";
 
-import photo1 from "../assets/random2.png";
-import padri from "../assets/padri.png";
+import mangupa from "./assets/mangupa.png";
+import markobar from "./assets/markobar.png";
+
+import photo1 from "./assets/random2.png";
+import padri from "./assets/padri.png";
 
 
 const Gallery: React.FC = () => {
@@ -170,10 +171,10 @@ const Gallery: React.FC = () => {
           </div>
           <SectionController
             previousLabel={"Tradisi & Permainan Adat"}
-            previousPath={"/tradisi-dan-permainan"}
+            previousPath={"/batak-mandailing/tradisi-dan-permainan"}
             currentLabel={"Galeri"}
             nextLabel={"Home"}
-            nextPath={"/"}
+            nextPath={"/batak-mandailing"}
           />
         </div>
       </div>

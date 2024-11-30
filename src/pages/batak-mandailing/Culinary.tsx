@@ -1,12 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import SectionController from "../components/SectionController";
-import HeaderNav from "../components/HeaderNav";
-import mkhas from "../assets/makanan-khas.png";
-import tpanya from "../assets/togepanyabungan.png";
-import asampadeh from "../assets/asampadeh.png";
-import kuepakkat from "../assets/kuepakkat.png";
-import itakpoul from "../assets/itakpoul.png";
+import SectionController from "./components/SectionController";
+import HeaderNav from "./components/HeaderNav";
+import mkhas from "./assets/makanan-khas.png";
+import tpanya from "./assets/togepanyabungan.png";
+import asampadeh from "./assets/asampadeh.png";
+import kuepakkat from "./assets/kuepakkat.png";
+import itakpoul from "./assets/itakpoul.png";
 
 const Culinary: React.FC = () => {
   return (
@@ -114,10 +114,10 @@ const Culinary: React.FC = () => {
           </p>
           <SectionController
             previousLabel={"Pakaian Adat"}
-            previousPath={"/pakaian-adat"}
+            previousPath={"/batak-mandailing/pakaian-adat"}
             currentLabel={"Kuliner"}
             nextLabel={"Rumah Adat"}
-            nextPath={"/rumah-adat"}
+            nextPath={"/batak-mandailing/rumah-adat"}
           />
         </div>
       </div>

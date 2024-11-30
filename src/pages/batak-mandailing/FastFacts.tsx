@@ -1,10 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import photo1 from "../assets/random1.png";
-import SectionController from "../components/SectionController";
-import BarChart1 from "../components/BarChart1";
-import PieChart1 from "../components/PieChart1";
-import HeaderNav from "../components/HeaderNav";
+
+import SectionController from "./components/SectionController";
+import BarChart1 from "./components/BarChart1";
+import PieChart1 from "./components/PieChart1";
+import HeaderNav from "./components/HeaderNav";
+
+import photo1 from "./assets/random1.png";
 
 const FastFacts: React.FC = () => {
   return (
@@ -91,10 +93,10 @@ const FastFacts: React.FC = () => {
           </div>
           <SectionController
             previousLabel={"Home"}
-            previousPath={"/"}
+            previousPath={"/batak-mandailing"}
             currentLabel={"Fast Facts"}
             nextLabel={"Sejarah"}
-            nextPath={"/sejarah"}
+            nextPath={"/batak-mandailing/sejarah"}
           />
         </div>
       </div>

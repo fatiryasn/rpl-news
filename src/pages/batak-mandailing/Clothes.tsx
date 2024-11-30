@@ -1,14 +1,16 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import SectionController from "../components/SectionController";
-import HeaderNav from "../components/HeaderNav";
-import pkhas from "../assets/pakaian-adat.png";
-import ulosg from "../assets/ulosgodang.png";
-import pkhas2 from "../assets/pkhas2.png";
-import ampu from "../assets/ampu.png";
-import songket from "../assets/songket.png";
-import hiakepala from "../assets/hiakepala.png";
-import songket2 from "../assets/songket2.png";
+
+import SectionController from "./components/SectionController";
+import HeaderNav from "./components/HeaderNav";
+
+import pkhas from "./assets/pakaian-adat.png";
+import ulosg from "./assets/ulosgodang.png";
+import pkhas2 from "./assets/pkhas2.png";
+import ampu from "./assets/ampu.png";
+import songket from "./assets/songket.png";
+import hiakepala from "./assets/hiakepala.png";
+import songket2 from "./assets/songket2.png";
 
 const Clothes: React.FC = () => {
   return (
@@ -225,10 +227,10 @@ const Clothes: React.FC = () => {
         </ol>
         <SectionController
           previousLabel={"Kesenian & Musik"}
-          previousPath={"/kesenian-dan-musik"}
+          previousPath={"/batak-mandailing/kesenian-dan-musik"}
           currentLabel={"Pakaian Adat"}
           nextLabel={"Kuliner"}
-          nextPath={"/kuliner"}
+          nextPath={"/batak-mandailing/kuliner"}
         />
       </div>
     </div>
